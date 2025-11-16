@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  border: 2px solid red;
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+#container .div-item {
+  width: 5.75%;
+  height: 50px;
+  background-color: rgb(101, 101, 206);
+  border: 1px solid rgb(0, 0, 105);
+}
+
+
+button {
+  padding: 5px;
+  width: 100px;
+  margin-bottom: 5px;
+  display: block;
+  margin: auto;
+}
